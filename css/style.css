@@ -1,0 +1,95 @@
+#body{
+    background: url('/img/fundo.jpg');
+}
+
+#title{
+    color: white;
+    font-weight: bolder;
+    position: absolute; 
+    top: 34%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-family: cursive;
+}
+
+.container{
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+i{
+    font-size: 50px;
+}
+
+.col{
+    color:white;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 20px;
+    text-transform:capitalize;
+    letter-spacing: 1px;
+}
+
+#insta:hover{
+    cursor: pointer;
+    color: white;
+    transform: translateX(0px);
+    animation: float 6s ease-out infinite;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+#face:hover{
+    cursor: pointer;
+    color: white;
+    transform: translateX(0px);
+    animation: float 6s ease-out infinite;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+#twitter:hover{
+    cursor: pointer;
+    color: white;
+    transform: translateX(0px);
+    animation: float 6s ease-out infinite;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+#yt:hover{
+    cursor: pointer;
+    color: white;
+    transform: translateX(0px);
+    animation: float 6s ease-out infinite;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+#wpp:hover{
+    cursor: pointer;
+    color: white;
+    transform: translateX(0px);
+    animation: float 6s ease-out infinite;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+@keyframes float {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-60px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
